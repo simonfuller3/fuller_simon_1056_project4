@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body 
+{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+.container 
+{
+  margin: 0 auto;
+  background-color: #FFF;
+  max-width: 1140px;
+  /*MAX SIZE*/
+}
+  
+  /*MOBILE*/
+  
+  .box 
+  {
+    align-content: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    width: 100%;
+  }
+
+  .box1
+  {
+   background-color: #F9829B;
+  }
+
+  .box2
+  {
+   background-color: #EE2625;
+  }
+
+  
+  
+  .box3
+  {
+    display: hidden;
+  }
+
+  .box4
+  {
+    display: hidden; 
+  }
+
+
+
+/*NEW SIZE BOX DISPLAY*/
+
+
+@media screen and (min-width: 641px) {
+  
+  .container 
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .box1
+  {
+   background-color: #869BF0;
+  }
+
+  .box2
+  {
+    background-color: #7851A9;
+  }
+
+  .box3
+  {
+    background-color: #778899;
+  }
+
+  .box4
+  {
+    background-color: #03BB85;
+  }
+}
